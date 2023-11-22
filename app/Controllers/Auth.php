@@ -76,6 +76,7 @@ class Auth extends BaseController
         session()->setFlashdata('pesan', 'Anda Telah Logout !!!');
         return redirect()->to(base_url('auth'));
     }
+    // test
     //--------------------------------------------------------------------
 
 }
